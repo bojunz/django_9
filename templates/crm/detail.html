@@ -1,0 +1,107 @@
+{% extends 'crm/base.html' %}
+{% block title %}详情页{% endblock %}
+{% block section %}学生详情{% endblock %}
+{% block content %}
+    <form class="form-horizontal" method="post" action="">
+
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">姓名</label>
+    <div class="col-sm-2">
+      <input type="text" class="form-control" id="name" placeholder="请输入学生姓名" name="name" value="{{ student.name }}">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="age" class="col-sm-2 control-label">年龄</label>
+    <div class="col-sm-2">
+      <input type="text" class="form-control" id="age" placeholder="请输入学生年龄" name="age" value="{{ student.age }}">
+    </div>
+  </div>
+        <div class="form-group">
+        <label for="sex" class="col-sm-2 control-label">性别</label>
+
+        <label>
+            <input type="radio" name="sex" id="optionsRadios2" value="option2">女
+        </label>
+
+
+        <label>
+            <input type="radio" name="sex" id="optionsRadios3" value="option3" disabled>男
+        </label>
+        </div>
+        <div class="form-group">
+    <label for="qq" class="col-sm-2 control-label">QQ</label>
+    <div class="col-sm-2">
+      <input type="text" class="form-control" id="qq" placeholder="请输入学生qq" name="qq" value="{{ student.qq }}">
+    </div>
+    </div>
+        <div class="form-group">
+    <label for="phone" class="col-sm-2 control-label">电话</label>
+    <div class="col-sm-2">
+      <input type="text" class="form-control" id="phone" placeholder="请输入学生电话" name="phone" value="{{ student.phone }}">
+    </div>
+  </div>
+        <div class="form-group">
+        <label for="grade" class="col-sm-2 control-label">班级</label>
+    <div class="col-sm-2">
+     <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    所属班级
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+    </div>
+  </div>
+        <div class="form-group">
+    <label for="num" class="col-sm-2 control-label">身份证</label>
+    <div class="col-sm-2">
+      <input type="text" class="form-control" id="num" placeholder="请输入学生身份证" name="num" value="{{ student.detail.num }}" >
+    </div>
+  </div>
+        <div class="form-group">
+    <label for="college" class="col-sm-2 control-label">毕业院校</label>
+    <div class="col-sm-3">
+      <input type="text" class="form-control" id="college" placeholder="请输入学生毕业学校" nmae="college" value="{{ student.detail.college }}">
+    </div>
+  </div>
+        <div class="form-group">
+    <label for="college" class="col-sm-2 control-label">毕业院校</label>
+    <div class="col-sm-2">
+     <select class="form-control" name="grade">
+  <option value=0>未分班</option>
+         {% for grade in grades %}
+  <option value="{{ grade.id }}" {% if grade.id == student.classroom.id %}selected{% endif %}> {{ grade }}</option>
+              {% endfor %}
+  <option>5</option>
+</select>
+    </div>
+  </div>
+
+
+
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>   #remember按钮
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">保存</button>
+        <button type="reset" class="btn btn-info">重置</button>
+        <a href="{% url 'CRM:home' %}" type="button" class="btn btn-info">返回</a>
+    </div>
+  </div>    #提交按钮
+</form>
+
+{% endblock %}

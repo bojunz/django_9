@@ -1,0 +1,40 @@
+{% load common_extras %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页面</title>
+</head>
+<body>
+欢迎
+<span style="color: deeppink">{{ name }}</span>
+登录
+<div>
+    {% if request.session.name %}
+    <a href="{% url 'exercise:logout' %}">安全退出</a>
+    {% else %}
+    <a href="{% url 'exercise:login' %}">登录</a>
+    {% endif %}
+</div>
+
+{{ dog }} <br>
+{{ name }} <br>
+
+{% current_time %}   #无参数 <br>
+{% current_time1 '%Y-%m-%d' %}  #有参数 <br>
+参数用空格隔开 <br>
+
+{% takes %} <br>
+
+{% show_tags %}
+先调用common_extras的函数，然后返回到包含标签中，然后显示包含标签中内容 <br>
+
+{% show_tags1 dog %}
+有参数直接空格 后面加传过来的参数 <br>
+
+{% show_tags2 %}
+
+</body>
+</html>
+
+

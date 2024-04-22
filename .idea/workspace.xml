@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5d5483c-fdec-4d61-8901-73af8cf12efe" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="7a5a3109-24a0-4894-90ae-d7742530e83a" />
+  <component name="ProjectId" id="22dQ5Eu5Q7sl5MdeoWwQZdty1Eq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="redshift" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercise" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bzz00\PycharmProjects\pythonProject\django_9\exercise\templatetags" />
+      <recent name="C:\Users\bzz00\PycharmProjects\pythonProject\django_9\templates\teacher" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bzz00\PycharmProjects\pythonProject\django_9\exercise" />
+      <recent name="C:\Users\bzz00\PycharmProjects\pythonProject\django_9\execise" />
+      <recent name="C:\Users\bzz00\PycharmProjects\pythonProject\django_9\static\teacher\图片" />
+      <recent name="C:\Users\bzz00\PycharmProjects\pythonProject\django_9\图片" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="django_9" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django_9" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="django9_10.settings" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://bd@127.0.0.1:1234/home/bd/.virtualenvs/django_10/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5d5483c-fdec-4d61-8901-73af8cf12efe" name="Default Changelist" comment="" />
+      <created>1640164798211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640164798211</updated>
+      <workItem from="1640164799399" duration="59000" />
+      <workItem from="1640164864763" duration="12000" />
+      <workItem from="1640164883284" duration="5405000" />
+      <workItem from="1640171939306" duration="868000" />
+      <workItem from="1640172810921" duration="79546000" />
+      <workItem from="1641122204123" duration="21648000" />
+      <workItem from="1641540811680" duration="8543000" />
+      <workItem from="1642031498780" duration="20317000" />
+      <workItem from="1642696077554" duration="13785000" />
+      <workItem from="1643068737024" duration="31604000" />
+      <workItem from="1643940568717" duration="32973000" />
+      <workItem from="1644516144942" duration="2107000" />
+      <workItem from="1644556592526" duration="45000" />
+      <workItem from="1644557720524" duration="44000" />
+      <workItem from="1644603628846" duration="311000" />
+      <workItem from="1644603941895" duration="1000" />
+      <workItem from="1644603965358" duration="48000" />
+      <workItem from="1645294574239" duration="74000" />
+      <workItem from="1651541729219" duration="200000" />
+      <workItem from="1651541971218" duration="2000" />
+      <workItem from="1669355062246" duration="54000" />
+      <workItem from="1693694093243" duration="12000" />
+      <workItem from="1707369997383" duration="662000" />
+      <workItem from="1707371094480" duration="1131000" />
+      <workItem from="1707892419206" duration="74000" />
+      <workItem from="1707893565162" duration="6000" />
+      <workItem from="1713755365513" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Deployment" timestamp="1707555453201">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1707555453201" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1707371414735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1707371414735" />
+  </component>
+</project>
